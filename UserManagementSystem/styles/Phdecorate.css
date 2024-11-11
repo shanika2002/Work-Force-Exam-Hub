@@ -1,0 +1,127 @@
+/*index.php file begins edit*/
+
+.tableindex{
+	
+	width: 85%;
+    border-collapse: collapse; 
+    margin: 20px; 
+	font-family: Arial;
+	
+}
+
+.inex-container{
+	border: 3px solid #2D008F;
+    text-align: left;
+    padding: 10px;
+	font-size:18px;
+	text-align: center;
+}
+.button-edit{
+	
+	font-family: Arial;
+	font-weight: bold;
+	border: 1px solid #256CE2 ;
+	padding: 5px;
+	background-color: #256CE2 ;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 0px;
+    cursor: pointer;
+    border-radius: 4px;
+	width: 50px;
+	height: 20px;
+	
+}
+.button-datadelete{
+	
+	font-family: Arial;
+	font-weight: bold;
+	border: 1px solid #F41A1A ;
+	padding: 5px;
+	background-color: #F41A1A ;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 0px;
+    cursor: pointer;
+    border-radius: 4px;
+	width: 50px;
+	height: 20px;
+	
+}
+/*create.php begins to decorate*/
+.form-inputs{
+	
+	border-radius: 8px;
+	padding: 2px;
+	width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.main-form-container{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+.content-box-create{
+	padding-top:20px;
+	width: 600px;
+    padding: 20px;
+	height: 800px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgb(31, 168, 196);
+    margin: 20px;
+}
+/*<h1> header*/
+#new-exam-header{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 35px;
+}
+.submit-delete{
+	text-align: center;
+	font-family: arial;
+}
+/*form submit button*/
+#submitBtn{
+	font-family: arial;
+	background-color: #4CAF50;
+    color: white;
+    padding: 8px 13px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+	font-weight: bold;
+}
+#submitBtn:hover {
+    background-color: #45a049;
+}
+/*form delete button*/
+.delete-container {
+	font-family: arial;
+    background-color: #FB3B3B;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.content-box-create-edit{
+	padding-top:20px;
+	width: 600px;
+    padding: 20px;
+	height: 800px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #2A45DE;
+    margin: 20px;
+	
+}

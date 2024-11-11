@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+	
+		<title>Work Force Exam Hub</title>
+		<!--Link CSS-->
+		<link rel="stylesheet" href="styles/Decorate.css">
+		<!--Link js-->
+		<script src="js/Javascript.js"></script>
+		
+	</head>
+	
+	<body>
+	<header class="header-container">
+		<!--logo and user icon-->
+		<img src="logo/WEBLOGO.png" width="300Px" height="200Px" alt="System logo" class="logo">
+		<img src="images/User.png" width="100Px" height="100Px" alt="User Icon" class="user" >
+		<button type="button" id="myButtonu" class="btn-user" onclick="myFunction()">User</button>
+		</form>
+	</header>
+		
+		<hr id="line">
+		<!--Horizontal menu-->
+		<ul class="menue">
+			<li class="menue" id="menu-li-a"> <a href="#" id="menu-li-a" style="background-color:#736DD8;">HOME</a> </li>
+			<li class="menue" id="menu-li-a"> <a href="../Department/department.html" id="menu-li-a">DEPARTMENT</a> </li>
+			<li class="menue" id="menu-li-a"> <a href="" id="menu-li-a">EXAMINATION</a> </li>
+			<li class="menue" id="menu-li-a"> <a href="" id="menu-li-a">MY EXAMINATION</a> </li>
+			<li class="menue" id="menu-li-a"> <a href="" id="menu-li-a">TECHNICAL SUPPORT</a> </li>
+			<li class="searchbar"> 
+			<form action="/search" method="get">
+			<input type="text" id="search" name="q" placeholder="Search">
+			<button type="submit">Search</button></form></li>
+		</ul><br>
+
+		<div class="content-box" ><!--message and notice panal-->
+		<center>
+		<h4 class="h4hedding">MESSAGES AND NOTICIES</h4>
+		<button type="button" id="myButton1" class="btn-primary" onclick="loadData('myButton1')">HR</button>
+		<button type="button" id="myButton2" class="btn-primary" onclick="loadData('myButton2')">IT</button>
+		<button type="button" id="myButton3" class="btn-primary" onclick="loadData('myButton3')">FINANCIAL</button>
+		<button type="button" id="myButton4" class="btn-primary" onclick="loadData('myButton4')">MARKETING</button>
+		<hr>
+		</center>
+		<ul>
+        <li id="para1">This is some static content inside the box. You can customize the styles and content based on your needs.</li><br><br>
+		<li id="para2">This is some static content inside the box. You can customize the styles and content based on your needs.</li>
+		</ul>
+		
+		</div>
+		
+		<!--Right side buttons -->
+		
+		<div class="bttn-position">
+		<button type="button" id="myButton01" class="btn-right" onclick="myFunction()">Employee Manual</button><br><br>
+		<button type="button" id="myButton01" class="btn-right" onclick="myFunction()"> Exam Timtable </button><br><br>
+		<button type="button" id="myButton01" class="btn-right" onclick="myFunction()">     ?FAQ      </button><br><br>
+		<button type="button" id="myButton01" class="btn-right" onclick="myFunction()">   Exam Link   </button><br><br>
+		<button type="button" id="myButton01" class="btn-right" onclick="myFunction()">     Result    </button><br><br>
+		<!-- Create a container for the dropdown -->
+				<div class="dropdown">
+					<!-- Button that will be used as a trigger for the dropdown -->
+					<button class="dropbtn">Option</button>
+  
+					<!-- Dropdown content with links -->
+					<div class="dropdown-content">
+						<a href="">Manage User</a>
+						<a href="http://localhost/Web1/index.php">Create Exam</a>
+						<a href="https://example.com">Manage Complain</a>
+						<a href="https://example.com">Manage Registration</a>
+						<a href="https://example.com">Manage ticket</a>
+					</div>
+				</div>
+		</div>
+		
+		
+		<br><br><br><br><br><br><br><br>
+		<!--footer of the webpage-->
+		<footer>
+			<div>
+				<button type="button" id="buttn-container" class="button-footer"><a href="Terms.html" style="color: white;">Terms and conditions</a></button>
+				<button type="button" id="buttn-container" class="button-footer">Help</button>
+				<button type="button" id="buttn-container" class="button-footer">About Us</button>
+			</div>
+		</footer>
+		
+	</body>
+</html>
+
+

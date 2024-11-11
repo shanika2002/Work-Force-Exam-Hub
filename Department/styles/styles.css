@@ -1,0 +1,224 @@
+
+ .menu-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;	
+}
+ .menu-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+ h2 {
+     color: #333;
+}
+
+h3 {
+     color: #333;
+}
+
+a {
+     color: #007BFF;
+     text-decoration: none;
+}
+
+a:hover {
+     text-decoration: underline;
+}
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E7F0FF;
+}
+
+header {
+     background-color:#E7F0FF;
+     color: white;
+     text-align: center;
+     padding: 0px;
+}
+.menu{
+	font-family:math;
+	font-size:20px;
+}
+.container1 {
+    width: 100%;
+    min-height: 5vh;
+    padding: 5%;
+    background-image: linear-gradient(rgba(0, 8, 51, 0.9), rgba(0, 8, 51, 0.9)), url(images/backgroundt.jpeg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar {
+    width: 100%;
+    max-width: 700px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+
+.search-bar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: 0;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: #cac7ff;
+}
+
+::placeholder {
+    color: white; 
+}
+
+.search-bar1 button img {
+    width: 25px;
+}
+
+.search-bar1 button {
+    border: 0;
+    border-radius: 50px;
+    width: 40px;
+    height: 0px;
+    background: #58629b;
+    cursor: pointer;
+}
+.container2 {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+.logoWall{
+	position: absolute;
+	top: 350px;
+	right: 0px;
+	bottom: ;
+	left: ;
+		
+}
+
+.user{
+	/*right*/
+	float: right;
+	padding-top: 35px;
+	padding-right: 20px;
+	padding-left: 70px;
+}
+#line{
+	border: 1px solid black;
+}
+/*Menu bar editing part*/
+ul.menue{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #9D9BB5 ;
+	border-radius: 15px;
+}
+li.menue{
+	float:left;
+}
+li a{
+	font-family:Arial, sans-serif;
+	font-weight:bold;
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 17px;
+	padding-top: 18px;
+	padding-bottom:20px;
+    text-decoration: none;
+	border-radius: 15px;
+}
+li.menue a:hover{
+	background-color:#736DD8;
+}
+/*End of the menu bar part*/
+
+.searchbar{
+	float:right;
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+#search{
+	
+	border: 1px solid #ccc;
+    border-radius: 20px;
+	width: 200px;
+	height: 17px;
+	padding: 5px;
+}
+/*search bar button*/
+button{
+	padding: 6.5px 12px;
+	background-color: #333;
+	color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #555; 
+}
+/*Time */
+.time-container {
+	position:relative;
+	text-align:center;
+	left: 10px;
+	right: 10px;
+    font-size: 35px;
+	border-radius: 20px;
+	border: 1px solid #ccc;
+	width: 200px;
+	height: 40px;
+}
+/*user button at the top of the web page*/
+.btn-user{
+	position: absolute;
+	top: 170px;
+	right: 25px;
+	bottom: ;
+	left: ;
+	width: 100px
+}
+footer{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #423E4F;
+	border-radius: 5px;
+	
+}
+/*footer button container*/
+#buttn-container{
+	float: right;
+	border-radius:0px;
+	background-color:#423E4F;
+	margin-right: 2px'
+}
+*Header adjesments*/
+.header-container{
+	color: red;
+}

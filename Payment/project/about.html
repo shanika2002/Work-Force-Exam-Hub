@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+	<title>Work Force Exam Hub</title>
+	<link rel="stylesheet" href="C:\Users\DELL\Desktop\project\styles\styles.css">
+	<script src="C:\Users\DELL\Desktop\project\js\about.js"> </script>
+ </head>
+ 
+ <body>
+	<div class="head">
+	<section class="sect1">
+        <h1 class="header1">About Us</h1><br>
+		</div>
+        <div>
+            <img src="C:\Users\DELL\Desktop\project\images\logo.png" width="300px" height="300px" alt="logo" class="logo">
+        </div>
+			<div class="paraback">
+                <p class="para2">
+                    Welcome to our Examination System for Employees website. At its core, our system is designed to empower organizations with a robust, efficient, and customizable tool to evaluate and enhance the knowledge, skills, and performance of their workforce.<br><br>
+					Our platform provides a comprehensive solution for conducting examinations, assessments, and evaluations tailored to your company's specific needs. We understand that continuous learning and professional development are essential components of a successful 
+					and competitive organization. Hence, our Examination System for Employees is a valuable resource that facilitates growth, skill enhancement, and compliance management.<br><br>
+					Our system offers a user-friendly interface, making it easy for both administrators and employees to navigate. It streamlines the examination process, from test creation and delivery to grading and reporting, ensuring efficiency and accuracy at every step.<br>
+                </p>			
+			
+            </div>
+    </section>
+	<hr class="line1">
+	<section class="sect2">
+	<div class ="work">
+		<h2 class="header2">OUR WORK</h2>
+		<img src="../project/images/work.jpeg" alt="work" class="image1">
+        <p>Our work is a testament to our unwavering dedication to excellence and our relentless pursuit of innovation. 
+			With a deep commitment to delivering exceptional results, we take pride in every project we undertake. Our team's 
+			collective expertise, creativity, and attention to detail ensure that we consistently exceed expectations.
+			From concept to completion, we approach each endeavor with a passion for excellence, striving to push the boundaries 
+			of what is possible. Whether it's creating cutting-edge technology, crafting inspiring designs, 
+			or providing top-notch services.</p> <br><a href="C:\Users\DELL\Desktop\project\projects.html">Our Projects</a> 
+    </div>
+	<div class="team">
+		<h2 class="header2">OUR TEAM</h2>
+		<img src="../project/images/team1.jpg" alt="team" class="image1">
+		<p>Welcome to our website! Our team is comprised of a diverse group of dedicated individuals who share a 
+			common passion and vision.<br> We are united by our commitment to excellence and our relentless pursuit 
+			of innovation. Each member brings a unique set of skills and expertise to the table, creating a dynamic 
+			and collaborative environment where creativity thrives.<br><br> <a href="C:\Users\DELL\Desktop\project\team.html">Meet our Team...</a></p> 
+	</div>
+		<div class="touch">
+		<h2 class="header2">GET IN TOUCH</h2>
+		<img src="../project/images/touch1.jpg" alt="team" class="image1">
+		<p>Feel free to reach out through our email, or phone,or WhatsApp and one of our dedicated team members 
+		   will be delighted to assist you.
+		   <ul>
+		   <li>Email: workforce@gmail.com </li>
+		   <li>Contact: +94 77-xxxxxxx</li>
+		   <li>WhatsApp: +94 77-xxxxxxx</li>
+		   </ul>
+		   </p>
+	</div>
+	</section>
+	
+	<section>
+	<img src="C:\Users\DELL\Desktop\project\images\exam3.jpg" alt="exam" class="image3">
+	</section>
+	
+	<br>
+	<section>
+		<h3 class="header3"><center>Any Complaints on exams?</center></h3>
+	</section>
+	
+	<br>
+	<section>
+		<div class="box1">
+			<h4 class="head4">Complaint Box</h4>
+			<form action="about.php" method="POST">
+				
+				<label for="Eid">Employee ID: </label>
+				<input type="text" id="Eid" name="Eid" required><br><br>
+				
+				<label for="email">email: </label>
+				<input type="text" id="email" name="email"><br><br>
+				
+				<label for="department">Department: </label>
+				<select id="department" name="department">
+					<option value="hr">Human Resources(HR)</option>
+					<option value="marketing">Marketing</option>
+					<option value="finance">Finance</option>
+					<option value="sales">Sales</option>
+					<option value="it">Information Technology(IT)</option>
+					<option value="supply">Supply Chain and Logistics</option>
+					<option value="legal">Legal</option>
+				</select><br><br>
+				
+				<label for="complaint">Complaint: </label>
+				<textarea id="complaint" name="complaint" rows="5" required></textarea><br><br>
+				
+				<button type="submit" onclick="compform()">SUBMIT</button>
+			</form>	
+			
+		</div>
+	</section>
+ 
+ </body>
+	

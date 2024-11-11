@@ -1,0 +1,201 @@
+body
+{
+	background-color: #E7F0FF;
+}
+.logo
+{
+	padding-top: 0;
+	padding-right: 30px;
+	padding-left: 0px;
+}
+.user
+{
+	/*right*/
+	float: right;
+	padding-top: 35px;
+	padding-right: 20px;
+	padding-left: 70px;
+}
+#line
+{
+	border: 1px solid black;
+	width:100%;
+	
+}
+/*Menu bar editing part*/
+ul.menue
+{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #9D9BB5 ;
+	border-radius: 15px;
+}
+li.menue
+{
+	float:left;
+}
+li a
+{
+	font-family:Arial, sans-serif;
+	font-weight:bold;
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 17px;
+	padding-top: 18px;
+	padding-bottom:20px;
+    text-decoration: none;
+	border-radius: 15px;
+}
+li.menue a:hover
+{
+	background-color:#736DD8;
+}/*End of the menu bar part*/
+
+.searchbar
+{
+	float:right;
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+#search
+{
+	
+	border: 1px solid #ccc;
+    border-radius: 20px;
+	width: 200px;
+	height: 17px;
+	padding: 5px;
+}
+/*search bar button*/
+button
+{
+	padding: 6.5px 12px;
+	background-color: #333;
+	color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+button:hover 
+{
+    background-color: #555; 
+}
+/*Time */
+.time-container 
+{
+	position:relative;
+	text-align:center;
+	left: 10px;
+	right: 10px;
+    font-size: 35px;
+	border-radius: 20px;
+	border: 1px solid #ccc;
+	width: 200px;
+	height: 40px;
+}
+/*Content box buttons*/
+ .btn-primary 
+ {
+	font-family: Arial;
+	font-weight: bold;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+	width: 125px;
+}
+/*Header adjesments*/
+.header-container
+{
+	color: red;
+}
+/* Style for the content box */
+.content-box 
+{
+	width: 550px;
+    padding: 35px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+/* Style for the paragraph inside the box */
+.content-box p 
+{
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.btn-right
+{
+	font-family: Arial;
+	font-weight: bold;
+	border: 1px solid #4CAF50;
+	padding: 5px;
+	background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 6px;
+    cursor: pointer;
+    border-radius: 4px;
+	width: 275px;
+	height: 40px;
+
+}
+.bttn-position
+{
+	position: absolute;
+	top: 350px;
+	right: 0px;
+	bottom: ;
+	left: ;
+}
+h4 
+{
+    background-color: #736DD8;
+    color: #fff;
+    text-align: center;
+	border-radius: 5px;
+}
+
+/*user button at the top of the web page*/
+.btn-user
+{
+	position: absolute;
+	top: 170px;
+	right: 25px;
+	bottom: ;
+	left: ;
+	width: 100px
+}
+footer
+{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #423E4F;
+	border-radius: 5px;
+	
+}
+/*footer button container*/
+#buttn-container
+{
+	float: right;
+	border-radius:0px;
+	background-color:#423E4F;
+	margin-right: 2px'
+}
